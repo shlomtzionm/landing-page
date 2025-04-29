@@ -3,6 +3,8 @@
 }
 
 body , html{
-  overflow: hidden;
+  overflow: auto;
+  height: 100%;
 }
+
 
