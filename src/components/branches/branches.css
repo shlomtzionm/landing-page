@@ -1,0 +1,53 @@
+.branches {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(72, 53, 37);
+  display: flex;
+  flex-direction: row-reverse;
+justify-content: center;
+position: relative;
+overflow: hidden;
+}
+.branches .ps{
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    z-index: 100;
+  
+}
+.branches p {
+    font-weight: 600;
+  font-size: 3em;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+overflow-x: hidden;
+}
+.branches ul{
+    margin-left: -200px;
+overflow: hidden;
+height: 350vh;
+}
+
+.branches ul li {
+    z-index: -3;
+    list-style: none;
+font-size: 5em;
+text-align: left;
+margin-left: 160px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(108, 90, 70);
+}
+
+@media (max-width: 700px) {
+    .branches .ps{
+        background-color: rgba(0, 0, 0, 0.225);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+        0 6px 20px rgba(0, 0, 0, 0.2);
+        height: fit-content;
+    }
+    .branches ul li{
+        font-size: 6.5em;
+    }
+}

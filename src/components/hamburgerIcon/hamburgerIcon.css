@@ -1,0 +1,44 @@
+.hamburgerIcon{
+    height: 70px;
+    width: 70px;
+border: 1px solid rgba(0, 0, 0, 0.397);
+border-radius: 12px;
+margin-right: 16px;
+margin-top: 8px;
+position: relative;
+cursor: pointer;
+}
+
+.hamburgerIcon:hover{
+border: 1px solid rgba(0, 0, 0, 0.148);
+
+}
+.bar1{
+width: 50%;
+height: 5px;
+background-color: rgba(0, 0, 0, 0.678);
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.bar2{
+    width: 50%;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.678);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+.bar3{
+    width: 50%;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.678);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    }

@@ -1,0 +1,63 @@
+.search {
+  position: relative;
+  z-index: -1000;
+}
+
+.search .studyImg {
+  height: 100vh;
+  width: 100vw;
+}
+
+.searchBar {
+    all: unset;
+  width: 80vw;
+  height: 60px;
+  background-color: rgb(231, 231, 231);
+position: absolute;
+top: 35%;
+left: 50%;
+transform: translateX(-50%);
+border-radius: 8px;
+border: 1px solid rgba(112, 112, 112, 0.292);
+text-align: left;
+padding:0 16px;
+font-size: larger;
+}
+
+.search .text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+color: white;
+width: 100vw;
+}
+
+.search .text h3{
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.search .text p{
+    font-size: 1.8em;
+    padding:  32px;
+    margin-top: -70px;
+
+}
+@media (max-width: 700px) {
+  .search .studyImg {
+    width: 150vw;
+  }
+}
+
+
+@media (min-width: 700px) {
+    .search .studyImg {
+      width: 100vw;
+    }
+    .searchBar{
+        width: 45vw;
+    }
+  }
+  
+  
