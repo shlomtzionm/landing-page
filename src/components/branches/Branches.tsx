@@ -46,7 +46,7 @@ function Branches(): JSX.Element {
 
   useEffect(() => {
     gsap.to(".branchList", {
-      y: "-150%", 
+      y: "-120%", 
       ease: "none",
       scrollTrigger: {
         trigger: ".branches",

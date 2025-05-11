@@ -1,0 +1,33 @@
+.footer{
+    width: 100vw;
+padding-bottom: 40px;
+    background-color: rgb(67, 41, 17);
+  margin-top: -20px;
+  color:  white;
+  text-align: left;
+  display: flex; 
+  flex-direction: column;
+  
+}
+
+.footer h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 40px;
+}
+
+.footer .tables{
+    display: flex;
+    gap: 80px;
+}
+
+.footer .tables ul{
+    border-left: 1px solid white;
+    margin-left: 40px;
+width: fit-content;
+}
+
+.footer .tables ul li{
+    list-style: none;
+}
+
+
